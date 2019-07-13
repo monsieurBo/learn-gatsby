@@ -2,15 +2,18 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { Layout } from '../components/layout';
 
-const NotFoundPage = () => {
+const AboutMePage = () => {
   return (
     <Layout>
-      <h1>Page Not Found</h1>
-      <p>Man... I'm sorry for you</p>
+      <h1>Malcolm Kee</h1>
+      <ul>
+        <li>Full-Snack Developer</li>
+        <li>KL, Malaysia</li>
+      </ul>
       {/* highlight-next-line */}
       <Link to="/">Home</Link>
     </Layout>
   );
 };
 
-export default NotFoundPage;
+export default AboutMePage;

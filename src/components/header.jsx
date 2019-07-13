@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css'; // highlight-line
+import './header.css';
 
 export const Header = () => {
   return (
